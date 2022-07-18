@@ -1,0 +1,175 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+p{
+    color:#8f8f8f;
+}
+h1,h2,h3{
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+}
+.features-title,.pricing-text{
+    font-weight:bold;
+}
+.cta-text,.title-heading,.section-heading{
+    font-weight:bolder;
+    line-height: 1.5;
+}
+.cta-text,.title-heading{
+    font-size: 3.7rem;
+    font-family: "Montserrat";
+    color: white;
+}
+#title, #cta{
+    background-color: #ff4c68;
+}
+.container-fluid{
+padding :3% 10%;
+}
+/* Navigation  */
+#navbar{
+    padding-bottom: 0 0 4.5rem;
+    font-size: 1.2rem;
+}
+    .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.1rem;
+    font-weight:normal;
+    position: relative;
+    left:85px;
+}
+    .nav-item{
+        padding: 15px;
+}
+    .nav-link:hover{
+    color:white;
+}
+    .nav-link{
+        font-size: 1.2rem;
+}
+/* title */
+.cat{
+    transform: rotate(25deg);
+    z-index: -1;
+    width: 60%;
+    position: relative;
+    left: 85px;
+} 
+#title-section{
+    padding-top:40px;
+}
+#title{
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+} 
+.title-btn{
+    margin:3% 1% 5% 0;
+}
+/* features */
+.fa-solid{
+    color: #ef8172;
+    float: none;
+    padding:4px;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.features-title{
+    font-size:2rem;
+    padding:2%;
+}    
+.features-descr{
+    color: #8f8f8f;
+}
+.feature-box{
+padding:5%;
+}
+/* testimonial section */
+
+#testimonials{
+    padding:7% 15%;
+background-color: #ef8172;
+color: white;
+}
+.testimonial-img{
+     height: 180px;
+    width: 200px; 
+    margin: 7px 7px 0px;
+border-radius: 100%;
+}
+.testimonial-text{
+    padding-bottom: 20px;
+    font-size: 3.1rem;
+}
+.carousel-item{
+    padding :0 50px;
+}
+
+/* press  */
+#press{
+    background-color: #ef8172;
+    padding: 0% 16% 3%;
+}
+.press-img{
+padding: 0 12px 0;
+width: 19%;
+}
+
+/* pricing-section */
+.card{
+padding: 2% 3%;
+}
+#pricing{
+    padding: 110px;
+}
+.section-heading{
+font-size: 3rem;
+}
+.pricing-col{
+    padding:70px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* cta */
+#cta{
+padding: 6% 7%;
+}
+.cta-text{
+    padding: 4%;
+}
+.ctaBtn{
+    padding: 5px;
+    margin: 5px;
+}
+.fa-brands{
+  padding: 4px;  
+}
+/* footer  */
+#footer{
+    padding: 55px;
+}
+.footer-text{
+padding-top:5px;
+
+}
+@media(max-width:1024px){
+.cat{
+transform: rotate(0);
+position: static;
+width: 60%;
+}
+#title{
+    text-align: center;
+}
+}

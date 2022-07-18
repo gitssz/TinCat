@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinCat</title>
+  <!--google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+  <!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+  <!--bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!--css-->
+<link rel="stylesheet" href="styles.css">
+</head>
+ 
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">tincat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-contents" aria-expanded="false" aria-label="Toggle-navigantion">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link " href="">Home</a></li>
+          <li class="nav-item"><a class="nav-link"  href="">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Review</a></li>
+      <li class="nav-item"><a class="nav-link" href="">Pricing</a>
+      <!-- <a class="nav-link dropdown-toggle" href="" id="navdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a> 
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="">Platinum</a></li>
+          <li ><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="">Gold</a></li>
+          <li><a class="dropdown-item" href="">Plus</a></li>
+      </ul> -->
+      </li>
+      <li class="nav-item"><a class="nav-link" href="">Download</a></li>
+      </ul>
+      </div>
+      </div>
+      </nav>
+      
+    <!-- Title -->
+    <div class="container">
+<div class="row">
+    <div class="col-lg-6" id="title-section">
+      <h1 class="title-heading">Meet new and interesting cats nearby.</h1>
+      <button type="button" class="btn btn-dark btn-lg title-btn"><i class="fa-brands fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg title-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+    </div>
+    <div class="col-lg-5" id="cats">
+      <img class="cat" src="IPhone.png" alt="picture">
+      <!-- <img class="cat" src="cat2.jpeg" alt="cat-picture 1">
+      <img class="cat" src="cat1.jpeg" alt="cat-picture 2"> -->
+    </div>
+</div>
+</div>
+</div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container">
+<div class="row">
+ 
+  <div class="col-lg-4 feature-box ">
+     <i class="fa-solid fa-circle-check fa-5x center"></i> 
+    <h3 class="features-title">Easy to use.</h3> 
+    <p class="features-descr">So easy to use, even your cat could do it.</p>
+  </div>
+  <div class="col-lg-4 feature-box">
+     <i class="fa-solid fa-bullseye fa-5x "></i> 
+    <h3 class="features-title">Elite Clientele</h3>
+    <p class="features-descr">We have all the cats, the greatest cats.</p>
+  </div>
+    <div class="col-lg-4 feature-box ">
+       <i class="fa-solid fa-heart fa-5x center"></i> 
+    <h3 class="features-title"></i>Guaranteed to work.</h3>
+    <p class="features-descr">Find the love of your cat's life or your money back.</p>
+</div>
+</div>
+</div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+  <div id="CAROUSEL" class="carousel slide" data-bs-ride="false" >
+    <!-- <button type="button" data-bs-target="#CAROUSEL" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 0"></button>
+    <button type="button" data-bs-target="#CAROUSEL" data-bs-slide-to="1" aria-label="slide 1"></button> -->
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <h2 class="testimonial-text">I no longer have to smell other cats for love. I've found the hottest Persian on TinCat. Meow.</h2>
+        <img class="testimonial-img" src="cat1.jpeg" alt="cat-profile">
+        <em>Pebbles, New York</em>          
+      </div>
+      <div class="carousel-item ">
+        <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, he has found the love of his life. I think.</h2>
+        <img class="testimonial-img" src="tinimages/lady-img.jpg" alt="lady-profile">
+        <em>Beverly, Illinois</em>
+      </div>
+    </div>
+      <button class="carousel-control-prev prevBtn"  type="button" data-bs-target="#CAROUSEL" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next nextBtn" type="button" data-bs-target="#CAROUSEL" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+</section>
+
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img" src="tinimages//techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="tinimages/tnw.png" alt="tnw-logo">
+    <img class="press-img"  src="tinimages//bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img"  src="tinimages//mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+<section id="pricing">
+  <h2 class="section-heading">A Plan for Every cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your cat.</p>
+    <!-- <div class="card-deck"> -->
+  <div class="row">
+        <div class="col-lg-4 col-md-6 pricing-col" >
+          <div class="card">
+            <div class="card-header">
+            <h3 >Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="pricing-text">Free</h2>
+              <p class="card-text">5 Matches Per Day</p>
+              <p >10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <!-- <button type="button">Sign Up</button> -->
+              <a href="" class="btn btn-dark">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-4 col-md-6  pricing-col">
+        <div class="card">
+          <div class="card-header">
+            <h3 >Labrador</h3>
+        </div>
+          <div class="card-body">
+            <h2 class="pricing-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <!-- <button type="button">Sign Up</button> -->
+          <a href="" class="btn btn-dark" >Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12  pricing-col"> 
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <!-- <button type="button">Sign Up</button>   -->
+            <a href="" class="btn btn-outline-dark" >Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-text">Find the True Love of Your cat's Life Today.</h3>
+    <button class="btn btn-light btn-lg ctaBtn" type="button"><i class="fa-brands fa-apple"></i>Download</button>
+    <button type="button" class="btn btn-dark btn-lg ctaBtn"><i class="fa-brands fa-google-play"></i>Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-facebook"></i>
+
+    <p class="footer-text">© Copyright 2022 TinCat</p>
+
+  </footer>
+
+
+</body>
+
+</html>
